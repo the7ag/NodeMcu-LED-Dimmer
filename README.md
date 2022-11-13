@@ -11,3 +11,4 @@ to create the server on our network and to also control the value of the slider 
 # nodeMCU 
 node mcu code to change the LED intensity with the changing slider
 # Video
+https://user-images.githubusercontent.com/95578914/201537334-ee44ff53-d93e-494c-b6be-e53c53d7dbb8.mp4
