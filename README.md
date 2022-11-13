@@ -1,3 +1,5 @@
+# Full explanation video
+https://www.youtube.com/watch?v=7ehImImpgPk
 # NodeMcu-LED-Dimmer
 LED Dimmer using node mcu and websockets
 # HTML/CSS
