@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css.css"> -->
+    <title>iot lab</title>
+    <style>
+        body {
+            background-color: bisque;
+            color: brown;
+        }
+
+        input[type="range"] {
+            filter: hue-rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>IOT Lab</h1>
+        <div style="justify-content: center; display: flex; font-family: cursive;font-size: larger;">
+            0<input type="range" min="0" max="255" step="5" id="led">255
+            <span> , LED Intensity= <span id="redRange">
+                    <!--here show the range value -->
+                </span></span>
+        </div>
+</body>
+</center>
+<script>
+    var host=location.origin.replace(/^http/,'ws');
+    var ws=new WebSocket(host);
+    var Slider=document.getElementById('led');
+    var label=document.getElementById('redRange')
+    label.innerHTML=Slider.value;
+    Slider.oninput=function(){
+        ws.send(Slider.value);
+    }
+    ws.onmessage=function(event){
+        Slider.value=event.data;
+        label.innerHTML=event.data;
+    }
+    ws.onclose=function(){
+    }
+    ws.onerror=function(){
+
+    }
+</script>
+</html>
