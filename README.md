@@ -1,3 +1,12 @@
+## Authors
+
+- [@Mohamed ALi](https://github.com/the7ag)
+- [@Abdelrahman Kamel](https://github.com/abdokamel2001)
+- [@Norhan Ahmed](https://github.com/Norhanahmed38)
+- [@Hady Hisham](https://github.com/hadyhisham1)
+- [@Sarah Sleem](https://github.com/Sarahsleem)
+- [@Duaa Wagdy](https://github.com/Duaawagdy)  
+- 
 # Full explanation video
 https://www.youtube.com/watch?v=7ehImImpgPk
 # NodeMcu-LED-Dimmer
