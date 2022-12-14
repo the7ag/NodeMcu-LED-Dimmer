@@ -6,7 +6,7 @@
 - [@Hady Hisham](https://github.com/hadyhisham1)
 - [@Sarah Sleem](https://github.com/Sarahsleem)
 - [@Duaa Wagdy](https://github.com/Duaawagdy)  
-- 
+- [@Yara Mahmoud](https://github.com/Yaramahmoud-11ya)  
 # Full explanation video
 https://www.youtube.com/watch?v=7ehImImpgPk
 # NodeMcu-LED-Dimmer
